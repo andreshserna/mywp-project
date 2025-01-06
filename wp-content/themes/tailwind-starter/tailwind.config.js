@@ -1,15 +1,19 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    './*.php', // Archivos PHP raíz
-    './**/*.php', // Subcarpetas de PHP
-    './header.php', // Header específico
-    './footer.php', // Footer específico
-    './page-templates/*.php', // Plantillas personalizadas
-    './assets/js/**/*.js', // Si tienes archivos JS personalizados
+    './*.php',
+    './**/*.php',
+    './header.php',
+    './footer.php',
+    './page-templates/*.php',
+    './assets/js/**/*.js',
+    './front-page.php',
   ],
   theme: {
     extend: {
+      fontFamily: {
+        clash: ['"Clash Grotesk"', 'sans-serif'],
+      },
       screens: {
         sm: '640px',
         md: '768px',
@@ -18,7 +22,10 @@ module.exports = {
         '2xl': '1440px',
       },
       maxWidth: {
-        container: '1440px', 
+        container: '1440px',
+      },
+      backgroundPosition: {
+        'right-center': 'right center',
       },
     },
   },

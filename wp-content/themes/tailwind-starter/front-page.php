@@ -8,10 +8,10 @@ get_header();
 
 <main>
   <section 
-    class="h-screen bg-cover bg-center flex items-center justify-start px-8" 
-    style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/images/gaetano-hero-2.png');">
+    class="h-screen bg-right-center bg-no-repeat flex items-center justify-start px-8" 
+    style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/images/gaetano-hero-2.png'); background-repeat: no-repeat; background-position: bottom right; ">
     <div class="max-w-3xl">
-      <h1 class="font-clash-grotesk text-[60px] font-semibold leading-[72px] text-left">
+      <h1 class="font-clash text-[60px] font-semibold leading-[72px] text-left">
         Marketing advice based <br>on credibility, not hype
       </h1>
       <ul class="mt-6 space-y-4 text-lg">
